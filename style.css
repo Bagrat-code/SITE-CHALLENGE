@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Abang";
+    src: url("Abang.otf") format("woff2");    
+    
+}
+
+body {
+
+color: white;
+
+background: rgb(2,0,36);
+background: linear-gradient(241deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 45%, rgba(255,0,0,1) 100%);
+}
+
+nav li  {
+
+    margin: 0 10px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.banner {
+    height: 80vh;
+}
+
+h1 {
+
+    font-size: 120px;
+    margin: 0 ;
+    padding-top: 50px;
+    font-family: Abang;
+}
+
+footer {
+    font-family: Abang;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+h2 {
+
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+li:hover {
+
+    color: red;
+    transition: .3s;
+}
+
+.fa-dumbbell {
+
+    color: yellow;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: purple;
+    font-size: 30px;
+}
+
+span {
+
+    color: red;
+}
+
+.blue {
+
+    color: lightskyblue;
+}
+
+/* RACCOURCI */
+/* .border {
+
+    border: 1px solid white;
+} */
+
+.flex
+ {
+    display: flex;
+
+ }
+
+ .alignCenter {
+     align-items: center;
+ }
+
+ .justify {
+
+justify-content: space-between;
+ }
+
+ .justifyCenter {
+
+    justify-content: center;
+ }
+
+ .flexDirectionC {
+
+    flex-direction: column;
+ }
